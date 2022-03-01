@@ -3,9 +3,7 @@ Contenedores Docker para el desarrollo de Magento 2.4.x que incluyen:
 
   - PHP 7.4
   - Apache 2.4
-  - MYSQL 8
-  - Varnish 6 FPC  
-  - RabbitMQ  
+  - MYSQL 8 
   - PhpMyAdmin
   - memcached
   - ELASTIC search 7.x
@@ -15,7 +13,7 @@ Contenedores Docker para el desarrollo de Magento 2.4.x que incluyen:
 ## Instalacion
 
 1. git clone https://github.com/gaiterjones/docker-magento2  
-2. EDIT .env - **add your Magento authentication keys**  
+2. EDIT .env - **Modificar ENV con datos de DB**  
 3. `docker-compose build`
 4. `docker-compose up -d`   
 5. Instalar sample data
